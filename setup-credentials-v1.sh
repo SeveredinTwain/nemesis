@@ -92,7 +92,7 @@ case $CHOICE in
 			sudo git config --system core.editor nano
 			#git config --global credential.helper cache
 			#git config --global credential.helper 'cache --timeout=32000'
-      git remote set-url origin git@github.com-arc:$githubdir/$project
+      git remote set-url origin git@github.com:$githubdir/$project
       echo
       echo "Everything set"
       ;;
